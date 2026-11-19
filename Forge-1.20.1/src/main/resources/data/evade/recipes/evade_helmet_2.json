@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "evade:evade_plate_2"
+    }
+  },
+  "result": {
+    "item": "evade:evade_helmet_2",
+    "count": 1
+  }
+}

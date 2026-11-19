@@ -1,0 +1,55 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+# issueTrackerURL="https://example.invalid/issues"  # 公開先が決まったら設定する
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+# displayURL="https://example.invalid/"             # 配布ページが決まったら設定する
+logoFile="evade.png"                               # ロゴ画像(src/main/resources 直下)を置いたら有効にする
+credits="Tinkers' Construct (MIT License, (c) 2022 SlimeKnights): the molten fluid textures are derived from its molten gold texture."
+authors="${mod_authors}"
+displayTest="MATCH_VERSION"
+description='''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# 以下は任意の連携(無くても起動できる)
+
+# Curios API: 頭スロットへのヘイロー装備
+[[dependencies.${mod_id}]]
+    modId="curios"
+    mandatory=false
+    versionRange="[5.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Tinkers' Construct: 溶融・鋳造・改造
+[[dependencies.${mod_id}]]
+    modId="tconstruct"
+    mandatory=false
+    versionRange="[3.11.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# TiCEX: 再構築コアを使った鋳造
+[[dependencies.${mod_id}]]
+    modId="ticex"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"

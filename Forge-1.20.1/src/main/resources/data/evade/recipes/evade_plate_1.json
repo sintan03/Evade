@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evade:evade_ingot_1",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "evade:evade_plate_1",
+    "count": 4
+  }
+}

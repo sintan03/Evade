@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "evade:serum_catalyst"
+    }
+  ],
+  "result": "evade:evader_halo",
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  }
+}

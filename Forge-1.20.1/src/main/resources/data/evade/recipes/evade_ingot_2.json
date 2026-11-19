@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_1",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_1",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_1",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_1",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "evade:evade_ingot_2",
+    "count": 1
+  }
+}

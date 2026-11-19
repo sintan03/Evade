@@ -1,0 +1,7 @@
+{
+  "modifier.evade": {
+    "dodge_basics": "#FFFF55",
+    "air_dodge": "#FFFF55",
+    "evader_halo": "#FFFF55"
+  }
+}

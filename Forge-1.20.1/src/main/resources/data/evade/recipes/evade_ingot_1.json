@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:feather",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "evade:evade_ingot_1",
+    "count": 4
+  }
+}

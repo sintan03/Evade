@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ticex"
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "evade:evade_halo"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_reconstruction_core",
+    "amount": 2000
+  },
+  "result": "evade:serum_catalyst",
+  "cooling_time": 300
+}

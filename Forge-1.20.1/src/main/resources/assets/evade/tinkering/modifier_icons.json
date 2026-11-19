@@ -1,0 +1,5 @@
+{
+  "evade:dodge_basics": "evade:gui/modifiers/dodge_basics",
+  "evade:air_dodge": "evade:gui/modifiers/air_dodge",
+  "evade:evader_halo": "evade:gui/modifiers/evader_halo"
+}

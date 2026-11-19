@@ -1,0 +1,13 @@
+{
+  "dodge_burst": {
+    "subtitle": "subtitles.evade.dodge_burst",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "volume": 0.4,
+        "pitch": 1.8
+      }
+    ]
+  }
+}

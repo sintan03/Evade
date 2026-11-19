@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "evade:evade_core",
+      "amount_needed": 4
+    }
+  ],
+  "result": "evade:air_dodge",
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "slots": {
+    "upgrades": 1
+  }
+}

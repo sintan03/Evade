@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "evade:evade_core"
+    }
+  ],
+  "result": "evade:dodge_basics",
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "upgrades": 1
+  }
+}

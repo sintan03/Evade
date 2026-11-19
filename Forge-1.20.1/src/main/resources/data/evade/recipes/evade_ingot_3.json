@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_2",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_2",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_2",
+      "count": 1
+    },
+    {
+      "item": "evade:evade_ingot_2",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "evade:evade_ingot_3",
+    "count": 1
+  }
+}
