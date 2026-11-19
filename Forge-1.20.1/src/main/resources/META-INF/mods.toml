@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-# issueTrackerURL="https://example.invalid/issues"  # 公開先が決まったら設定する
+issueTrackerURL="https://github.com/sintan03/Evade/issues"  # 公開先が決まったら設定する
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-# displayURL="https://example.invalid/"             # 配布ページが決まったら設定する
+displayURL="https://github.com/sintan03/Evade"             # 配布ページが決まったら設定する
 logoFile="evade.png"                               # ロゴ画像(src/main/resources 直下)を置いたら有効にする
 credits="Tinkers' Construct (MIT License, (c) 2022 SlimeKnights): the molten fluid textures are derived from its molten gold texture."
 authors="${mod_authors}"

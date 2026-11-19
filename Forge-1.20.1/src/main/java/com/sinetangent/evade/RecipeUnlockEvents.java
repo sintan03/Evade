@@ -7,6 +7,7 @@ import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /** このMODのクラフトレシピを、ワールド参加時にすべてレシピブックへ解放する。 */
@@ -17,11 +18,12 @@ public class RecipeUnlockEvents {
     public static void onLogin(PlayerEvent.PlayerLoggedInEvent event) {
         if (!(event.getEntity() instanceof ServerPlayer player)) return;
 
-        List<Recipe<?>> recipes = player.server.getRecipeManager().getRecipes().stream()
-                .filter(recipe -> recipe.getId().getNamespace().equals(Evade.MODID))
-                .filter(recipe -> recipe.getType() == RecipeType.CRAFTING)
-                .map(recipe -> (Recipe<?>) recipe)
-                .toList();
+        List<Recipe<?>> recipes = new ArrayList<>();
+        for (Recipe<?> recipe : player.server.getRecipeManager().getRecipes()) {
+            if (recipe.getId().getNamespace().equals(Evade.MODID) && recipe.getType() == RecipeType.CRAFTING) {
+                recipes.add(recipe);
+            }
+        }
 
         // すでに解放済みのレシピは無視される
         player.awardRecipes(recipes);

@@ -9,8 +9,16 @@
   "allow_crystal": true,
   "inputs": [
     {
-      "item": "evade:evade_core",
-      "amount_needed": 4
+      "item": "evade:evade_core"
+    },
+    {
+      "item": "evade:evade_core"
+    },
+    {
+      "item": "evade:evade_core"
+    },
+    {
+      "item": "evade:evade_core"
     }
   ],
   "result": "evade:air_dodge",

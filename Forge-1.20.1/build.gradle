@@ -91,7 +91,6 @@ minecraft {
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
-            args '--nogui'
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -170,8 +169,6 @@ dependencies {
     runtimeOnly fg.deobf("maven.modrinth:tinkers-construct:3.11.2.166")
     runtimeOnly fg.deobf("curse.maven:ticex-tinkers-construct-ex-1242469:9406206")
     runtimeOnly fg.deobf("curse.maven:moffs-addonapi-dynload-1242459:8143523")
-    runtimeOnly fg.deobf("curse.maven:mekanism-268560:6552911")
-    runtimeOnly fg.deobf("curse.maven:create-328085:7178761")
 
 }
 
